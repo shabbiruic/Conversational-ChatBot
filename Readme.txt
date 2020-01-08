@@ -1,5 +1,5 @@
 Step to run the chatbot: 
-1. unzip the folder.
+1. download the repository.
 2. Locate the ChatBot.ipynb file Open it in Jupyter notebook.
 3. And then run its first cell.
 4. Play around with the bot.
@@ -13,7 +13,7 @@ If some error comes may be check and install following library if they are not i
 	5.spacy
 	6.nltk
 	
-Zip folder contents following files 
+Repository contents following files 
 1. ChatBot : python code for chatbot
 2. chatBot_smallTalk.h5 : it contains saved model for general talk
 3. chatBotContext.h5 : it contains saved model for context specific chatbot
