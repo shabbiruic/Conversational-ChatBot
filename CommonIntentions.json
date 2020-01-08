@@ -1,0 +1,220 @@
+  {
+  	"intents": [{
+  		"tag": "EconomicalCars",
+  		"patterns": ["tell me some car which are in my budget", "cheap Car", "cheapest car", "affordable car", "low budget car", "lower end cars", "low maintaince car", "low cost cars", "economical cars", "which car is slowest?", "which is slowest car?", "slow car"],
+  		"responses": [" Nissan Versa Note", "Ford Fiesta", "Toyota Yaris", "Kia Rio", "Mitsubishi Mirage", " Chevrolet Spark"]
+  	}, {
+  		"tag": "TopCars",
+  		"patterns": ["affordable luxury car", "Top cars", "High class cars", "High end cars", "expensive Cars", "which car is fastest?", "which is fastest car", "Fast car"],
+  		"responses": ["Audi A3", "Audi Q3", "Acura TLX", "Acura RDX", "BMW XI", "BMW 2 Series", "Buick Encore"]
+  	}, {
+  		"tag": "PopularCars",
+  		"patterns": ["what car I should buy", "which car to buy", "trending car", "different company of cars", "which is the latest car", "tell me some mileage cars", "what car I should buy", "tell me some good car names", "tell me some car companies name", "what is a good car for students", "good car for elders", "good car for womens", "most famous cars", "trending cars"],
+  		"responses": ["Toyota Corolla", "Ford F-Series", "Volkswagen Golf", "Volkswagen Beetle", " Ford Escort", "Volkswagen Arteon", "Audi A6", " BMW M6", "Hyundai Accent", "BMW M5"]
+  	}, {
+  		"tag": "Buy",
+  		"patterns": ["how to buy a car", "buy car", "car specifications", "car features"],
+  		"responses": ["First find your use case, then you budget and short list car company"]
+  	}, {
+  		"tag": "SportsCar",
+  		"patterns": ["sports car under", "sexy car", "Racing cars", "car for boys"],
+  		"responses": ["ford mustang", "Janguar F-Type", "Toyata supra", "Audi TT", "BMW Z4"]
+  	}, {
+  		"tag": "Mileage",
+  		"patterns": ["How much mileage car gives", "mileage of a car", "miles per gallon", "mpg"],
+  		"responses": ["17 to 22 mpg", "Average car runs for 12000 miles"]
+  	}, {
+  		"tag": "Yes",
+  		"patterns": ["can I switch to synthetic oil", "Do you have a car that fits my need", "does car breaks", "does car have headlights", "should I buy a car", "do you have a car", "can boys drive car", "can men drive car", "can women drive car", "does car have wheels", "does car have engine", "does runs on road", "does car produces smoke", "can 4 people sit in a car"],
+  		"responses": ["Yes"]
+  	}, {
+  		"tag": "Advantages",
+  		"patterns": ["advantages of car", "pros of car", "use of cars", "who uses car"],
+  		"responses": ["It carry people", "you can travel faster and comfortably", "Whole family can travel together"]
+  	}, {
+  		"tag": "disadvantage",
+  		"patterns": ["disadvantages of cars", "common issues which car", "cons of car", "use of cars", "ugly car", "what are some common repairs"],
+  		"responses": ["It consumes lot of fuel", "tyre needs to be changed", "it gets brake down"]
+  	}, {
+  		"tag": "Mechanism",
+  		"patterns": ["how car works", "how car operates", "working principle of car", "what it takes to run a car"],
+  		"responses": ["Car runs via fossil fuels or electricity", "there are pulls and crackshaft to create motions"]
+  	}, {
+  		"tag": "CarParts",
+  		"patterns": ["components of car", "parts of the car"],
+  		"responses": ["HeadLight,Tail light, seats, wheels, engine, Steering etc"]
+  	}, {
+  		"tag": "Numbers",
+  		"patterns": ["how many gears car can have", "how many doors car can have", "how many people can sit in a car"],
+  		"responses": ["2", "4", "5", "6"]
+  	}, {
+  		"tag": "gear",
+  		"patterns": ["how to change gear", "How to apply reverse gear", "switch gears", "how to reverse a car", "how to park a car"],
+  		"responses": ["you have apply the clutch and change the lever position", "Automatic cars have no gears", "some cars you have lever near steering"]
+  	}, {
+  		"tag": "Headlights",
+  		"patterns": ["how many headlights car have", "how many tail lights car can have", "how many indicators car have"],
+  		"responses": ["2 headlights, 2 back lights and 4 indicators"]
+  	}, {
+  		"tag": "mileage",
+  		"patterns": ["what is the mileage of your car", "average fuel consumption"],
+  		"responses": ["12", "17", "24 for economical cars"]
+  	}, {
+  		"tag": "Start/Stop",
+  		"patterns": ["how to start a car", "how to stop a car", "how to drive a car"],
+  		"responses": ["you can toggle the key position for starting and stopping"]
+  	}, {
+  		"tag": "TypeOfGear",
+  		"patterns": ["Tell me about gears", "kind of gear car can have"],
+  		"responses": ["Forward gear Reverse gear and Automatic cars have no gears"]
+  	}, {
+  		"tag": "Duration",
+  		"patterns": ["how frequently should serving of car be done", "pollution check up", "how often should I check my tire pressure"],
+  		"responses": ["two to four times in a year"]
+  	}, {
+  		"tag": "FuelType",
+  		"patterns": ["which kind of fuel car uses", "what provide energy to drive car", "how car operates"],
+  		"responses": ["Gasoline, Diesel, CNG and electricity are the common fuel that car uses"]
+  	}, {
+  		"tag": "Transmission",
+  		"patterns": ["what kind of transmission cars have", "which car is better manual or automatic", "differnt mode of transmission", "which transmission type is good"],
+  		"responses": ["Cars have two transmission automatic and manual. manual is good in mileage"]
+  	}, {
+  		"tag": "Color",
+  		"patterns": ["colors car have", "different colors of car", "shades of cars"],
+  		"responses": ["thers are many colors of car like black, orange, yellow, brown, blue, silver"]
+  	}, {
+  		"tag": "SubjectiveAnswers",
+  		"patterns": ["how much we have to invest in repairing of a car", "maximum speed of car", "How Can I Save Money on Gas", "how much a car costs", "price of car", "Are these autonomous vehicles, good driver"],
+  		"responses": ["Its depends on various factor", "No common answer as it varies"]
+  	}, {
+  		"tag": "driving",
+  		"patterns": ["things to consider while driving car", "tips for first time driver", "rules for driving"],
+  		"responses": ["Drive slow near signals", "hold steering with two hands", "acclerate smoothly", "don't apply frequent brakes"]
+  	}, {
+  		"tag": "DriveType",
+  		"patterns": ["which is a good four-wheel drive or two drive", "what is a four-wheel drive", "what is two-wheel drive"],
+  		"responses": ["if engine gives power to all the four wheel its called four wheel drive and it it gives power to only rear wheel it called two wheel drive, it depends of use case which one is better"]
+  	}, {
+  		"tag": "CommonSense",
+  		"patterns": ["where can we drive the car", "what happens if someone hits the car"],
+  		"responses": ["put the metal part inside buckle to tie it and push the red button or un buckle it to remove"]
+  	}, {
+  		"tag": "Features",
+  		"patterns": ["what other amenities car have", "features of car"],
+  		"responses": ["put the metal part inside buckle to tie it and push the red button or un buckle it to remove"]
+  	}, {
+  		"tag": "motion",
+  		"patterns": ["how to accelerate a car", ""],
+  		"responses": ["put the metal part inside buckle to tie it and push the red button or un buckle it to remove"]
+  	}, {
+  		"tag": "Facts",
+  		"patterns": ["who invented car", "when was car invented", "what is car", "facts about cars", "car", "cars"],
+  		"responses": ["Karl Benz invented in 1885, car is a wheeled motor vehicle used for transportation"]
+  	}, {
+  		"tag": "ReadManual",
+  		"patterns": ["how to accelerate a car", "how to remove the seat belt", "do we have to wear seat belt", "brake", "how to apply the brake", "how to use wiper blades", "how to turn ac on", "turn ac off"],
+  		"responses": ["Please read the manual"]
+  	}, {
+  		"tag": "CarNames",
+  		"patterns": ["ford", "tesla", "BMW", "Audi", "jeep", "Ferrari", "Mustang", "Honda", "tata", "Bugatta", "dodge", "toyata", "volvo", "Nissan", "buick", "chevrolet", "chrysler", "hyundai"],
+  		"responses": ["It's a car company", "car manufacturer", "car maker"]
+  	}, {
+  		"tag": "TypesOfCar",
+  		"patterns": ["what are various kinds of car", "Types of car", "car list"],
+  		"responses": ["SUV, sedan, Hatchback, MPV, crossover,couple and convertible"]
+  	}, {
+  		"tag": "greeting",
+  		"patterns": ["Hi", "Good day", "Hello!", "Hey", "Good Morning", "gud mrng", "Hola"],
+  		"responses": ["Hello!", "Good to see you!", "Hi there, how can I help?", "Hi!", "Good morning, Hope you are having a good day! How can i help?", "Good day to you."],
+  		"context_set": ""
+  	}, {
+  		"tag": "owner",
+  		"patterns": ["who made you", "who owns you", "who is your owner", "who are your makers", "who is your creater", "who created you", "manufactured", "who built you"],
+  		"responses": ["I am outcome of graduate final project", "Preeti and Shabbir made me"]
+  	}, {
+  		"tag": "working",
+  		"patterns": ["how are you able to answer", "how you work", "explain your working principle", "Mechanism of working", "Principle of working", "mode of exceution", "ways of answering", "what do you do", "how do you talk", "how you reply", "how you response", "your response time"],
+  		"responses": ["I use neural network model", "we do semantic parsing", "Bag of word vector representation", "I am not rule based", "Feedforward Neural Network", "Compute intent then I answer"]
+  	}, {
+  		"tag": "personal_info",
+  		"patterns": ["how old are you", "what is your birth date", "when your birthday comes", "what is your age", "age?", "date of birth"],
+  		"responses": ["I am younger than you", "Just now I took the birth", "I am quite mature", "I am computer program"]
+  	}, {
+  		"tag": "talented",
+  		"patterns": ["Are you talented", "How talented you are", "what questions you can answer", "you are expert in", "you domain", "your context", "you are tranied in"],
+  		"responses": ["I am quite good with chatbot knowledge", "I have knowledge of NLP", "I have solid NLP background", "you talk about chatbot with me"]
+  	}, {
+  		"tag": "making",
+  		"patterns": ["how to make chatbot", "what are your parts", "main components", "constituents"],
+  		"responses": ["NLP knowledge", "Sentence Parsing", "Neural Network", "Intent finding", "Tensorflow library", "Json parser", "They coded me in python"]
+  	}, {
+  		"tag": "Speak",
+  		"patterns": ["In which language you can talk", "how you talk", "how you speak", "you speak in", "which language you use", "medium of communication", "mode of interaction", "ways of talking", "can you speak"],
+  		"responses": ["English", "Language which normal people speak", "I usually prefer simple sentences as i am in beta version", "I interact via console input"]
+  	}, {
+  		"tag": "Name",
+  		"patterns": ["what is your name?", "name?", "How to call you?", "what to call you", "Hey I am", "your name?", "who are you?"],
+  		"responses": ["Call me whatever you feel like", "you can call be chatbot"]
+  	}, {
+  		"tag": "information",
+  		"patterns": ["where to get information about chatbot", "what is chatbot", "define chatbot", "create chatbot"],
+  		"responses": ["https://www.tensorflow.org/", "http://www.natalieparde.com/teaching/cs421_fall2019.html", "computer program to whom you can ask"]
+  	}, {
+  		"tag": "factsChatBot",
+  		"patterns": ["who invented chatbot", "First chatbot come in", "chatbot", "chat", "bot", "chatbot exits since", "name of first chatbot", "history of chatbot"],
+  		"responses": ["Joseph Weizenbaum in 1960", "MIT professor in 1960", "ELIZA in 1960"]
+  	}, {
+  		"tag": "advantageChatBot",
+  		"patterns": ["Use of chatbot", "advantages of chatbot", "application of chatbot", "pratical use of chatbot", "why should I use you", "why to use you", "what I will get out of", "Pros of chatbot"],
+  		"responses": ["I never get angry", "I never get board", "I save people's time", "I can answer at odd times", "you can ask same question again and again"]
+  	}, {
+  		"tag": "disadvantageChatBot",
+  		"patterns": ["tell me something bad about you", "cases where chatbot fails", "chatbot"],
+  		"responses": ["I fail if not trained properly", "Its diffcult for us to understand out of uncommon sentences", "we reply quite similar answers"]
+  	}, {
+  		"tag": "quit",
+  		"patterns": ["see you later", "bye", "see you soon", "talk to you later", "catch up later", "will meet again", "good bye", "will talk later", "nice meeting talking with you", "will catch you later", "quit", "byyee", "catch you later"],
+  		"responses": ["Bye", "Have a nice day", "I enjoyed talking with you", "I hope you liked me", "If you like me please give me good grades", "I hope you like me, Expecting good grades.", "Good bye!", "See you soon."]
+  	}, {
+  		"tag": "Initiate_talk",
+  		"patterns": ["I'd like to talk about weather", "talk about weather", "discuss weather", "discuss about Cars", "I'd like to talk about cars", "talk about cars", "discuss about chatbot", "I'd like to talk about chatbot", "talk about chatbot"],
+  		"responses": ["Yah, we can discuss about that", "Yes, go ahead, I'm trained to do that"]
+  	}, {
+  		"tag": "Weather",
+  		"patterns": ["What's the weather Today?", "Are you aware of the weather today?", "Are you aware of weather now?", "Are you aware of the weather today?", "What's the weather Now?", "What is the weather prediction today?", "What is the weather prediction now?", "What's the weather Today?", "Are you aware of the weather today?", "Are you aware of weather now?", "Are you aware of the weather today?", "What's the weather Now?", "weather", "climate"],
+  		"responses": ["According to Chicago's context, It is summer today! Jokes apart, it is -2deg Celsius", "it is -2deg Celsius out there.", "Today's prediction is Bright and sunny", "it is predicted to be Sunny and bright", "Layer up, it is -2 degree celsius"]
+  	}, {
+  		"tag": "Rain",
+  		"patterns": ["Will it rain today?", "is it raining outside?", "will it rain now?", "Raining?", "is it predicted to rain?", "why it is raining?", "is there predicted shower today?", "will it shower today?", "can it shower today?", "can it rain today?", "Do i need to take umbrella today?"],
+  		"responses": ["No, it is predicted to be Sunny and bright", "Today's prediction is Bright and sunny", "Predictions Shows that it would be Sunny.", "Meteorology department Predictions tells us it is going to be sunny."]
+  	}, {
+  		"tag": "Temperature",
+  		"patterns": ["What's the temperature Today?", "Are you aware of the temperature today?", "Are you aware of temperature now?", "Are you aware of the temperature today?", "What's the temperature Now?", "What is the weather prediction today?", "What is the temperature prediction now?", "What's the temperature Today?", "Are you aware of the temperature today?", "Are you aware of temperature now?", "Are you aware of the temperature today?", "What's the temperature Now?"],
+  		"responses": ["Temperature is -2deg Celsius", "it is -2deg Celsius out there.", "Prediction is -5 degree celsius", "Temperature is predicted to be 2 degree celsius", "Layer up, it will be -2 degree celsius"]
+  	}, {
+  		"tag": "Snow",
+  		"patterns": ["Will it snow today?", "is it snowing outside?", "will it snow now?", "snowing?", "is it predicted to snow?", "why it is snowing?", "is there predicted snow today?", "will it snow today?", "can it snow today?", "can it snow today?", "Do i need to take Jacket today?", "Can i take jacket today?", "should i take jacket today?", "Should i layer up today?", "Should i layer up now?"],
+  		"responses": ["No, it is predicted to be Sunny and bright", "Today's prediction is Bright and sunny", "Predictions Shows that it would be Sunny.", "Meteorology department Predictions tells us it is going to be sunny."]
+  	}, {
+  		"tag": "Sun",
+  		"patterns": ["is it sunny?", "is it hot today?", "it seems hot, will there be heat stroke?", "hot now?", "hot tomorrow?"],
+  		"responses": ["yes, It is Sunny", "It is Sunny but no showers predicted", "Sunny, no Strokes Predicted though"]
+  	}, {
+  		"tag": "Cloud",
+  		"patterns": ["is it cloudy?", "is it cloudy today?", "it seems cloudy, will there be shower?"],
+  		"responses": ["yes, It is cloudy", "It is cloudy but no showers predicted", "Cloudy, no showers Predicted though"]
+  	}, {
+  		"tag": "Seasons",
+  		"patterns": ["what is the season now?", "seasons", "season", "is it summer", "is it winter", "is it fall", "when is summer"],
+  		"responses": ["It is winter", "We are in the end of fall and early winters", "It is chicago's Famous harsh winter."]
+  	}, {
+  		"tag": "tasks",
+  		"patterns": ["what can you do?", "works you can do ?", "tasks you can complete ?", "what work you do ?"],
+  		"responses": ["I can talk with people", "I can give answers about weather, Chatbot and Cars", "You can talk with me about common things"]
+  	}, {
+  		"tag": "calamity",
+  		"patterns": ["is there posibility of hurricane?", "hurricane?", "will hurricane hit?", "is there a posibility of snow storm?", "snowstorm?", "snow storm?", "is there a posibility of storm?", "is there possibility of cyclone?", "will cyclone hit us?", "any possibility of cyclone soon?", "is any calamity possible now?"],
+  		"responses": ["Our prediction data doesn't show any possibilty.", "Meteorology department Predictions tells us it is not possible anytime soon", "Sorry, not much data to substaniate the claim"]
+  	}]
+  }
